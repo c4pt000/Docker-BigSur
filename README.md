@@ -1,10 +1,4 @@
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
+
 # requires docker qemu-img python3
 
 
@@ -68,7 +62,13 @@ macos
 <br>
 <br>
 <br>
-
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
 
 installer with both images
 ```
