@@ -80,7 +80,7 @@ macos
 <br>
 installer with both images
 ```
-docker run -it -d \
+docker run -it \
    -v "${PWD}/BaseSystem.img:/Bimage" \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     -v "${PWD}/OSX-KVM:/opt/OSX" \
