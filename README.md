@@ -7,6 +7,13 @@ https://github.com/c4pt000/Docker-OSX
 
 git clone https://github.com/c4pt000/Docker-OSX
 
+
+
+Crtl+Alt+F for fullscreen
+
+Crtl+Alt+F again to exit
+
+
 ```
 docker-install-run.sh
 
