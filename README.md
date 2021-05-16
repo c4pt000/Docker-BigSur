@@ -1,6 +1,7 @@
 
 # requires docker qemu-img python3
 
+* update working now (overtired didnt realize that the "OSX-KVM" submodule wasnt linked on this repo even though the folder was there)
 
 https://github.com/c4pt000/Docker-OSX
 
