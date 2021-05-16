@@ -12,7 +12,7 @@ rm -rf Latest.*
 
 qemu-img create -f raw ./mac_hdd_ng.img 256G
 
-docker run -it -d \
+docker run -it \
    -v "${PWD}/BaseSystem.img:/Bimage" \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     -v "${PWD}/OSX-KVM:/opt/OSX" \
