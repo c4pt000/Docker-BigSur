@@ -1,3 +1,5 @@
+
+```
 docker run -it \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     --device /dev/kvm \
@@ -14,3 +16,4 @@ docker run -it \
     -e WIDTH=1000 \
     -e HEIGHT=1000 \
     sickcodes/docker-osx:naked
+```
