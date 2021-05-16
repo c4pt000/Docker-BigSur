@@ -1,4 +1,4 @@
-
+tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
 ./fetch-macOS-v2.py --action download -n Latest
 
