@@ -1,5 +1,5 @@
 
-docker run -it -d \
+docker run -it \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     -v "${PWD}/OSX-KVM:/opt/OSX" \
    -u root \
