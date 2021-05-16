@@ -49,19 +49,7 @@ docker exec -it <vm_machine_hash> bash
 
 macos
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
@@ -69,7 +57,19 @@ macos
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 installer with both images
 ```
 docker run -it -d \
