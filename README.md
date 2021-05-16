@@ -5,6 +5,29 @@
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
+# requires docker qemu-img python3
+
+
+https://github.com/c4pt000/Docker-OSX
+
+git clone https://github.com/c4pt000/Docker-OSX
+
+```
+docker-install-run.sh
+
+docker exec -it <vm_hash> bash
+
+mac-install                 might take running the command two or three times to kick over
+```
+
+
+```
+docker-run.sh
+
+docker exec -it <vm_hash> bash
+
+macos                 might take running the command two or three times to kick over
+```
 
 ```
 
