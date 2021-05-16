@@ -1,3 +1,12 @@
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
+
+
 if docker: Error response from daemon: driver failed programming external connectivity on endpoint brave_wiles (ec8a48644655f0a51b73b0a8a7f5c4efd2f1d90afdc7eaa001f04f9638f38c41): Bind for 0.0.0.0:50922 failed: port is already allocated.
 
 docker ps -a
