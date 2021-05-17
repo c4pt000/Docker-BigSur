@@ -71,6 +71,16 @@ macos
 <br>
 <br>
 <br>
+for ssh to macOS guest
+
+docker maps port 22 from macos when remote login is activated to 10022, docker exposes 10022 wrapped to port 50922 for the host side 
+as per docker -p 50922:10022 
+
+connecting to macOS guest running within this docker
+where user is your username with "Remote login" activated
+```
+ssh -p 50922 user@172.17.0.1
+```
 <br>
 <br>
 <br>
