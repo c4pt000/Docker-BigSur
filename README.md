@@ -53,20 +53,25 @@ Crtl+Alt+F again to exit
 ```
 docker-install-run.sh
 
-docker exec -it <vm_hash> bash
+echo "password:   fedora-mac"
 
-mac-install                 might take running the command two or three times to kick over
+ssh -p 2022 172.17.0.2
+    
+mac-install
 
 for macos + hda ich9 sound support
 
 mac-install-snd
+
 ```
 
 
 ```
 docker-run.sh
 
-docker exec -it <vm_hash> bash
+echo "password:   fedora-mac"
+
+ssh -p 2022 172.17.0.2
 
 macos                 might take running the command two or three times to kick over
 
