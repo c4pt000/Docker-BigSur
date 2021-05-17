@@ -1,4 +1,4 @@
-yum install qemu-img -y
+yum install qemu-img caja xorg-* mesa-* -y
 tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
 ./fetch-macOS-v2.py --action download -n Latest
