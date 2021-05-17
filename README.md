@@ -58,6 +58,8 @@ docker exec -it <vm_machine_hash> bash
 macos
 ```
 
+
+
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
@@ -95,6 +97,11 @@ scp -P 50922 -r Xcode_12.5.xip user@172.17.0.1:/Users/user/Desktop
 
 pulling "Xcode.xip" from guest to host to current working directory
 scp -P 50922 -r user@172.17.0.1:/Users/user/Downloads/Xcode_12.5.xip Xcode_12.5.xip
+```
+
+disabling "gatekeeper within macos"
+```
+sudo spctl --master-disable
 ```
 
 installer with both images
