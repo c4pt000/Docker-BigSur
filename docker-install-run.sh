@@ -23,7 +23,7 @@ docker run -it --privileged -d \
     --rm -e DISPLAY=$DISPLAY \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -p 50922:10022 \
-    -p 22:22 \
+    -p 2022:2022 \
     -e NOPICKER=true \
     -e GENERATE_SPECIFIC=true \
     -e DEVICE_MODEL="iMacPro1,1" \
