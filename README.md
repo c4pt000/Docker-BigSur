@@ -1,5 +1,8 @@
 # for docker nested functions
 
+
+firewall ports LAN side 22, 2022, 5900 (xhost + can be dangerous along with running ssh aside from --privileged and 5900)
+
 https://github.com/c4pt000/Docker-fedora-34-nested-docker
 
 https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio
