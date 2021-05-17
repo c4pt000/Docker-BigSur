@@ -87,6 +87,15 @@ ssh -p 50922 -Y user@172.17.0.1
 ```
 <br>
 <br>
+sending files with ssh "scp"
+```
+pushing "Xcode.xip" to user's account at folder /Users/user/Desktop
+
+scp -P 50922 -r Xcode_12.5.xip user@172.17.0.1:/Users/user/Desktop
+
+pulling "Xcode.xip" from guest to host to current working directory
+scp -P 50922 -r user@172.17.0.1:/Users/user/Downloads/Xcode_12.5.xip Xcode_12.5.xip
+```
 <br>
 <br>
 <br>
