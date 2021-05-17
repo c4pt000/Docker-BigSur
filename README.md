@@ -55,7 +55,7 @@ docker-install-run.sh
 
 echo "password:   fedora-mac"
 
-ssh -p 2022 172.17.0.2
+ssh -p 2022 -Y 172.17.0.2
     
 mac-install
 
@@ -71,7 +71,7 @@ docker-run.sh
 
 echo "password:   fedora-mac"
 
-ssh -p 2022 172.17.0.2
+ssh -p 2022 -Y 172.17.0.2
 
 macos                 might take running the command two or three times to kick over
 
