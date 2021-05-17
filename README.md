@@ -87,7 +87,7 @@ ssh -p 50922 -Y user@172.17.0.1
 ```
 <br>
 <br>
-sending files with ssh "scp"
+sending/receiving files with ssh "scp"
 ```
 pushing "Xcode.xip" to user's account at folder /Users/user/Desktop
 
