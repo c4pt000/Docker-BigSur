@@ -80,6 +80,10 @@ connecting to macOS guest running within this docker
 where user is your username with "Remote login" activated
 ```
 ssh -p 50922 user@172.17.0.1
+
+or with X11_Forwarding enabled
+
+ssh -p 50922 -Y user@172.17.0.1
 ```
 <br>
 <br>
