@@ -49,6 +49,7 @@ Crtl+Alt+F for fullscreen
 
 Crtl+Alt+F again to exit
 
+# requires port 2022 LAN side allow
 
 ```
 docker-install-run.sh
