@@ -22,7 +22,7 @@ docker run -it --privileged -d \
     -e HEIGHT=1000 \
     c4pt/fedora-mac \
     sbin/init
- echo "password:   fedora-mac"
-     echo "requires port 2022 LAN side allow"
-
+    echo "password:   fedora-mac"
+    echo "requires port 2022 LAN side allow"
+    sleep 2s
     ssh -p 2022 -Y 172.17.0.2
