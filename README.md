@@ -96,11 +96,7 @@ scp -P 50922 -r Xcode_12.5.xip user@172.17.0.1:/Users/user/Desktop
 pulling "Xcode.xip" from guest to host to current working directory
 scp -P 50922 -r user@172.17.0.1:/Users/user/Downloads/Xcode_12.5.xip Xcode_12.5.xip
 ```
-<br>
-<br>
-<br>
-<br>
-<br>
+
 installer with both images
 ```
 docker run -it \
