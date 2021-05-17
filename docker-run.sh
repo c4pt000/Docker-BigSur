@@ -1,10 +1,11 @@
+#add /dev/snd for snd support
+#    --device /dev/snd \
 
 docker run -it \
   --privileged \
     -v "${PWD}/mac_hdd_ng.img:/image" \
      -v "${PWD}/OSX-KVM:/opt/OSX" \
     -u root \
-    --device /dev/snd \
      --device /dev/kvm \
      --rm -e DISPLAY=$DISPLAY \
      -v /tmp/.X11-unix:/tmp/.X11-unix \
