@@ -1,3 +1,28 @@
+# for docker nested functions
+
+https://github.com/c4pt000/Docker-fedora-34-nested-docker
+
+https://github.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio
+
+```
+cat /etc/modprobe.d/kvm.conf 
+###
+### This configuration file was provided by the qemu package.
+### Feel free to update as needed.
+###
+
+###
+### Set these options to enable nested virtualization
+###
+
+
+options kvm ignore_msrs=y
+options kvm_intel nested=1
+
+#options kvm_amd nested=1
+
+options vfio_iommu_type1 allow_unsafe_interrupts=1
+```
 
 # requires docker qemu-img python3
 
