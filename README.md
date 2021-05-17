@@ -56,6 +56,10 @@ docker-install-run.sh
 docker exec -it <vm_hash> bash
 
 mac-install                 might take running the command two or three times to kick over
+
+for macos + hda ich9 sound support
+
+mac-install-snd
 ```
 
 
@@ -65,6 +69,10 @@ docker-run.sh
 docker exec -it <vm_hash> bash
 
 macos                 might take running the command two or three times to kick over
+
+for macos + hda ich9 sound support
+
+macos-snd
 ```
 
 ```
