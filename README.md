@@ -9,6 +9,14 @@ git clone https://github.com/c4pt000/Docker-OSX
 
 
 
+```
+passwd for root :
+
+fedora-mac
+
+change with passwd 
+```
+
 Crtl+Alt+F for fullscreen
 
 Crtl+Alt+F again to exit
