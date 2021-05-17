@@ -36,6 +36,6 @@ docker run -it --privileged -d \
     -e HEIGHT=1000 \
     c4pt/fedora-mac \
     sbin/init
-    echo "password fedora-mac"
+    echo "password:   fedora-mac"
     ssh -p 2022 172.17.0.2
 
