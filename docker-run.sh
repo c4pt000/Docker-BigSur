@@ -1,7 +1,6 @@
 
 docker run -it \
   --privileged \
- --net host \
     -v "${PWD}/mac_hdd_ng.img:/image" \
      -v "${PWD}/OSX-KVM:/opt/OSX" \
     -u root \
