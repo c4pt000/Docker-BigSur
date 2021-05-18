@@ -43,6 +43,9 @@ options kvm_intel nested=1
 options vfio_iommu_type1 allow_unsafe_interrupts=1
 ```
 
+where /opt is a directory and localdir is a sub dir to mount on the guest
+mounting physical folders use -v /opt/localdir:/opt/remotedir
+
 # requires docker qemu-img python3
 
 * update working now (overtired didnt realize that the "OSX-KVM" submodule wasnt linked on this repo even though the folder was there)
