@@ -8,8 +8,12 @@ wget https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/install-dock
 chmod install-docker-and-bigsur.sh
 sh install-docker-and-bigsur.sh
 ```
+the script creates two (blank) hard drive images locally
+mac_hdd_ng.img (blank 250gb expanding volume)
+BaseSystem.img (base installer for bigSur 8.5GB?)
 <br>
 <br>
+if Docker-bigSur is erased with the two images you will lose the data off of the system
 <br>
 <br>
 <br>
