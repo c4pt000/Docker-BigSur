@@ -22,13 +22,13 @@ systemctl enable docker (for starting docker at system startup)
 
 # as root:
 * you should have something like this before connecting
-
+```
 ┌─[root@fedora]─[/home/c4pt/opt/Docker-bigSur]
 └──╼ #xhost 
 access control enabled, only authorized clients can connect
 SI:localuser:root
 SI:localuser:c4pt
-
+```
 # when running this as privileged with /sbin/init 
 # system will hook PID 1 (Crtl-Alt-F3) and or (Crtl-Alt-F4) then back to (Crtl-Alt-F1) to release XDM login for fedora-mac
 
