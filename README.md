@@ -1,4 +1,6 @@
 # for docker nested functions
+* 07-09-2021 forgot to write down details from when i published this from being overtired
+
 * requires docker (and kvm.conf and kvm enabled grub.conf)
 must have  iommu=pt intel_iommu=on in /etc/default/grub  on this line and vt-d i/o enabled in the bios
 ```
@@ -32,8 +34,8 @@ options kvm_intel nested=1
 options vfio_iommu_type1 allow_unsafe_interrupts=1
 
 ```
-* forgot to write down details from when i published this from being overtired
 
+# to install
 as root
 ```
 wget https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/install-docker-and-bigsur.sh
@@ -57,6 +59,7 @@ then reinstall bigSur
 ```
 
 # to resume
+as root
 * from the Docker-bigSur directory directly to resume
 * change mode with chmod +x if not already set to executable bit
 ```
