@@ -43,6 +43,14 @@ chmod install-docker-and-bigsur.sh
 sh install-docker-and-bigsur.sh
 ```
 
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
+
 the docker image mounts the two local hard drive images (nothing is really stored in the docker image except for the qemu-system-x86_64
 unless the user adds something
 ```
@@ -112,13 +120,6 @@ ssh -p 2022 -Y root@172.17.0.2
 
 
 
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
 <br>
 <br>
 <br>
