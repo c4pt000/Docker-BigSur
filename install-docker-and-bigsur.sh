@@ -28,7 +28,7 @@ echo '
 # when running this as privileged with /sbin/init 
 # system will hook PID 1 (Crtl-Alt-F3) and or (Crtl-Alt-F4) then back to (Crtl-Alt-F1) to release XDM login for fedora-mac
 echo '
-sleep 10s
+sleep 30s
 
 
 git clone https://github.com/c4pt000/Docker-bigSur
