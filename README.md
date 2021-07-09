@@ -142,7 +142,8 @@ ssh -p 2022 -Y root@172.17.0.2
 <br>
 <br>
 
-confusing detailed original instructions begin here from original post
+# from here down can be ignored original post notes
+# confusing detailed original instructions begin here from original post
 
 firewall ports LAN side 22, 2022, 5900 (xhost + can be dangerous along with running ssh aside from --privileged and 5900)
 
