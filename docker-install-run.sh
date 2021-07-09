@@ -42,5 +42,6 @@ docker run -it --privileged -d \
     echo ""
     echo ""
     sleep 5s
-    ssh -p 2022 -Y 172.17.0.2
-
+    echo "where 172.17.0.2 is the ip of this docker image if different connect to that ip"
+    echo "ssh -p 2022 -Y root@172.17.0.2"
+echo "/usr/bin/mac-install"
