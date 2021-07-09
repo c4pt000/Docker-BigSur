@@ -2,25 +2,25 @@
 * requires docker
 * forgot to write down details from when i published this from being overtired
 
+as root
 ```
-yum install qemu-img caja xorg-* mesa-* -y
-
-sudo dnf -y install dnf-plugins-core
- sudo dnf config-manager \
-    --add-repo \
-    https://download.docker.com/linux/fedora/docker-ce.repo
-
-
- sudo dnf install docker-ce docker-ce-cli containerd.io
-
-systemctl start docker
-
-systemctl enable docker (for starting docker at system startup)
+wget https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/install-docker-and-bigsur.sh
+chmod install-docker-and-bigsur.sh
+sh install-docker-and-bigsur.sh
 ```
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
+# the script in further detail:
 # as root:
+
 * you should have something like this before connecting
 ```
 ┌─[root@fedora]─[/home/c4pt/opt/Docker-bigSur]
