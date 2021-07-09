@@ -1,5 +1,37 @@
 # for docker nested functions
-* requires docker
+* requires docker (and kvm.conf and kvm enabled grub.conf)
+must have  iommu=pt intel_iommu=on in /etc/default/grub  on this line and vt-d i/o enabled in the bios
+```
+GRUB_CMDLINE_LINUX=iommu=pt intel_iommu=on ....x.x..x.x..x..x.x...x.x..x
+GRUB_ENABLE_BLSCFG=false
+```
+
+followed by 
+```
+grub2-mkconfig -o /boot/grub2/grub.cfg
+grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
+```
+
+
+standard stuff for KVM.conf
+```
+cat /etc/modprobe.d/kvm.conf 
+###
+### This configuration file was provided by the qemu package.
+### Feel free to update as needed.
+###
+
+###
+### Set these options to enable nested virtualization
+###
+
+options kvm ignore_msrs=y
+options kvm_intel nested=1
+#options kvm_amd nested=1
+
+options vfio_iommu_type1 allow_unsafe_interrupts=1
+
+```
 * forgot to write down details from when i published this from being overtired
 
 as root
