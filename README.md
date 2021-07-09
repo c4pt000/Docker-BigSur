@@ -18,6 +18,10 @@ BaseSystem.img (base installer for bigSur 8.5GB?)
 
 
 if Docker-bigSur is erased with the two images you will lose the data off of the system
+
+launch INSTALL_FIRST from virt-manager
+then Disk Utility "Erase" 256GB volume
+then reinstall bigSur
 ```
 <br>
 <br>
