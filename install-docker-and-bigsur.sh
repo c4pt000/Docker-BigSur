@@ -26,7 +26,7 @@ SI:localuser:c4pt
 
 echo '
 # when running this as privileged with /sbin/init 
-# system will hook PID 1 (Crtl-Alt-F3) and or (Crtl-Alt-F4) then back to (Crtl-Alt-F1) to release XDM login for fedora-mac
+# system will hook PID 1 (Crtl-Alt-F3) and or (Crtl-Alt-F4) then back to (Crtl-Alt-F1) to release XDM login for fedora-mac (script will pause for 30 seconds)
 echo '
 sleep 30s
 
