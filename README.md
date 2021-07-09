@@ -125,6 +125,25 @@ ssh -p 2022 -Y root@172.17.0.2
 <br>
 
 
+
+
+
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+confusing detailed original instructions begin here from original post
+
 firewall ports LAN side 22, 2022, 5900 (xhost + can be dangerous along with running ssh aside from --privileged and 5900)
 
 https://github.com/c4pt000/Docker-fedora-34-nested-docker
@@ -248,20 +267,6 @@ macos
 ```
 
 
-
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 for ssh to macOS guest
 
 docker maps port 22 from macos when remote login is activated to 10022, docker exposes 10022 wrapped to port 50922 for the host side 
