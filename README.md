@@ -70,14 +70,16 @@ Crtl+Alt+F again to exit
 
 # requires port 2022 LAN side allow
 
+# step 1
 ```
 docker-install-run.sh
 
 echo "password:   fedora-mac"
 
-ssh -p 2022 -Y 172.17.0.2
-    
-mac-install
+"where 172.17.0.2 is the ip of this docker image if different connect to that ip"
+"ssh -p 2022 -Y root@172.17.0.2"
+"fedora-mac -> password for root"
+"/usr/bin/mac-install"
 
 for macos + hda ich9 sound support
 
@@ -85,12 +87,18 @@ mac-install-snd
 
 ```
 
-
+# once installed from step 1
 ```
 docker-run.sh
 
 echo "password:   fedora-mac"
 
+"where 172.17.0.2 is the ip of this docker image if different connect to that ip"
+"ssh -p 2022 -Y root@172.17.0.2"
+"fedora-mac -> password for root"
+"/usr/bin/macos"
+or 
+"/usr/bin/macos-snd"
 ssh -p 2022 -Y 172.17.0.2
 
 macos                 might take running the command two or three times to kick over
