@@ -1,6 +1,6 @@
 # for docker nested functions
 * requires docker
-
+* forgot to write down details from when i published this from being overtired
 ```
 yum install qemu-img caja xorg-* mesa-* -y
 
