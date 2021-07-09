@@ -1,6 +1,6 @@
 #!/bin/bash
-echo "run this as root"
-yum install qemu-img caja xorg-* mesa-* wget git -y
+echo "run this as root requires full x11 system either as yum install xorg-* -y or other fully enabled x11 "
+yum install qemu-img caja mesa-* wget git -y
 
 sudo dnf -y install dnf-plugins-core
  sudo dnf config-manager \
