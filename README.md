@@ -55,10 +55,7 @@ launch INSTALL_FIRST from virt-manager
 then Disk Utility "Erase" 256GB volume
 then reinstall bigSur
 ```
-<br>
-<br>
-<br>
-<br>
+
 # to resume
 * from the Docker-bigSur directory directly to resume
 * if not already set to executable bit
