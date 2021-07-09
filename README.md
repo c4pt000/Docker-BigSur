@@ -58,7 +58,7 @@ then reinstall bigSur
 
 # to resume
 * from the Docker-bigSur directory directly to resume
-* chmod +x if not already set to executable bit
+* change mode with chmod +x if not already set to executable bit
 ```
 chmod +x resume-docker-bigSur.sh
 sh resume-docker-BigSur.sh
