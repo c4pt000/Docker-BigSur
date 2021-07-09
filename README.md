@@ -13,7 +13,7 @@ grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg
 ```
 
 
-standard stuff for KVM.conf
+standard stuff for KVM.conf (might require running --->        dracut -f       )
 ```
 cat /etc/modprobe.d/kvm.conf 
 ###
