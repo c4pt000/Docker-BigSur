@@ -42,6 +42,10 @@ wget https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/install-dock
 chmod install-docker-and-bigsur.sh
 sh install-docker-and-bigsur.sh
 ```
+SET A STRONG PASSWORD AND STORE IT TO PREVENT VNC HIJACKING
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/docker-macos-password-prevent-vnc-hijacking.png)
+
+
 
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
