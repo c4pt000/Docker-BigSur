@@ -42,7 +42,7 @@ wget https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/install-dock
 chmod install-docker-and-bigsur.sh
 sh install-docker-and-bigsur.sh
 ```
-SET A STRONG PASSWORD AND STORE IT TO PREVENT VNC HIJACKING
+# SET A STRONG PASSWORD AND STORE IT TO PREVENT VNC/SPICE HIJACKING
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/docker-macos-password-prevent-vnc-hijacking.png)
 
 
@@ -69,6 +69,7 @@ launch INSTALL_FIRST from virt-manager
 then Disk Utility "Erase" 256GB volume
 then reinstall bigSur
 ```
+# set a strong password and store it for root
 
 # to resume
 as root
@@ -77,6 +78,10 @@ as root
 ```
 chmod +x resume-docker-bigSur.sh
 sh resume-docker-BigSur.sh
+change password for root:
+
+# passwd
+
 ```
 <br>
 <br>
