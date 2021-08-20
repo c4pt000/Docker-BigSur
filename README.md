@@ -1,3 +1,7 @@
+"not regular hackintosh on a PC"
+" https://www.insanelymac.com/ "
+
+
 # for docker nested functions
 * 07-09-2021 forgot to write down details from when i published this from being overtired
 
