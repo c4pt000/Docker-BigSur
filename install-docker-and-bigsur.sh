@@ -26,13 +26,12 @@ SI:localuser:c4pt
 
 echo '
 # when running this as privileged with /sbin/init 
-# system will hook PID 1 (Crtl-Alt-F3) and or (Crtl-Alt-F4) then back to (Crtl-Alt-F1) to release XDM login for fedora-mac (script will pause for 30 seconds)
+# system will hook PID 1 (Crtl-Alt-F3) and or (Crtl-Alt-F4) then back to (Crtl-Alt-F1) to release XDM login for fedora-mac (script will pause for 5 seconds)
 echo '
-sleep 30s
+sleep 5s
 
 
-git clone https://github.com/c4pt000/Docker-bigSur
-cd Docker-bigSur
+wget https://github.com/c4pt000/Docker-bigSur/releases/download/osx-kvm/OSX-KVM.tar.gz
 tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
 ./fetch-macOS-v2.py --action download -n Latest
