@@ -53,13 +53,13 @@ sh install-docker-and-bigsur.sh
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/docker-macos-password-prevent-vnc-hijacking.png)
 
 
-
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/diskutility.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-1.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/done.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/continue.png)
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/accept.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-2.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-3.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-4.png)
+
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
 
 the docker image mounts the two local hard drive images (nothing is really stored in the docker image except for the qemu-system-x86_64
