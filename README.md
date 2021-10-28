@@ -1,3 +1,6 @@
+# 10-27-2021
+# updates for macOS monterey
+
 "not regular hackintosh on a PC"
 " https://www.insanelymac.com/ "
 
