@@ -60,7 +60,6 @@ sh install-docker-and-bigsur.sh
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-3.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-4.png)
 
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/install.png.mac.png)
 
 the docker image mounts the two local hard drive images (nothing is really stored in the docker image except for the qemu-system-x86_64
 unless the user adds something
