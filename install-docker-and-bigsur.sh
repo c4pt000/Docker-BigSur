@@ -31,7 +31,7 @@ echo '
 sleep 5s
 
 
-wget https://github.com/c4pt000/Docker-bigSur/releases/download/osx-kvm/OSX-KVM.tar.gz
+wget https://github.com/c4pt000/Docker-monterey/releases/download/osx-kvm/OSX-KVM.tar.gz
 tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
 ./fetch-macOS-v2.py --action download -n Latest
