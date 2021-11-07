@@ -1,3 +1,17 @@
+for docker inside of a virtual machine running KVM natively notice the kvm=on,vmx extension for the processor
+requires kvm_intel nested=1 in /etc/kvm.conf
+and or
+```
+cat /etc/modprobe.d/kvm-nested.conf 
+options kvm-intel nested=1
+options kvm-intel enable_shadow_vmcs=1
+options kvm-intel enable_apicv=1
+options kvm-intel ept=1
+```
+```
+<qemu:arg value='Penryn,vendor=GenuineIntel,kvm=on,vmx,rdtscp,+invtsc,+avx,+avx2,+aes,+xsave,+xsaveopt,+ssse3,+sse4_2,+popcnt,vmware-cpuid-freq=on,'/>
+```
+
 # 10-27-2021
 # updates for macOS monterey
 
