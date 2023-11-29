@@ -8,6 +8,7 @@
   chmod +x patch-libvirt-IPTABLES-NFTABLES-UFW.sh
   ./patch-libvirt-IPTABLES-NFTABLES-UFW.sh
   close virt-manager and then reopen virtual manager from virt-manager
+  change NIC to vmxnet3 see picture below
   networking should work for install
   ```
 
