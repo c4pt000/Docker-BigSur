@@ -1,6 +1,8 @@
 # updates 11-29-2023
 
-# install Ventura first then once installed upgrade to Sonoma
+# iso to install Sonoma
+
+```https://www.mediafire.com/file/vku90kjifs1fmu0/macOS+Sonoma+ISO+by+techrechard.com.iso/file```
 
 * update to fix networking inside of SSH KVM once you login to ssh root@172.17.0.2 using fedora-mac password use this script in fedora-mac to fix iptables
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
