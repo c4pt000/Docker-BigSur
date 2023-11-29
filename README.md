@@ -10,10 +10,15 @@
   close virt-manager and then reopen virtual manager from virt-manager
   change NIC to vmxnet3 see picture below
   networking should work for install
+
+  once inside the Sonoma installer first step open a Terminal and use the following command to prevent sleep
+
+  sudo pmset -a disablesleep 1
+
   ```
 
 
-# adjust Network interface card to 'vmxnet3' to install Sonoma
+# adjust Network interface card to 'virtio' to install Sonoma
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-Sonoma/master/vmxnet-3.png)
 
 
