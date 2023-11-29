@@ -1,3 +1,5 @@
+# updates 11-29-2023
+
 * update to fix networking inside of SSH KVM once you login to ssh root@172.17.0.2 using fedora-mac password use this script in fedora-mac to fix iptables
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 
@@ -8,6 +10,15 @@
   close virt-manager and then reopen virtual manager from virt-manager
   networking should work for install
   ```
+
+
+
+
+
+
+* now supporting Sonoma
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-Sonoma/master/Sonoma.png)
+
 
 for docker inside of a virtual machine running KVM natively notice the kvm=on,vmx extension for the processor
 requires kvm_intel nested=1 in /etc/kvm.conf
@@ -76,7 +87,6 @@ sh install-docker-and-bigsur.sh
 ```
 # SET A STRONG PASSWORD AND STORE IT TO PREVENT VNC/SPICE HIJACKING
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-bigSur/master/docker-macos-password-prevent-vnc-hijacking.png)
-
 
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-monterey/master/monterey-1.png)
 ![s1](https://raw.githubusercontent.com/c4pt000/Docker-OSX/master/erase-drive.png)
