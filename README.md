@@ -13,7 +13,8 @@
   ```
 
 
-
+# adjust Network interface card to 'vmxnet3' to install Sonoma
+![s1](https://raw.githubusercontent.com/c4pt000/Docker-Sonoma/master/vmxnet-3.png)
 
 
 
