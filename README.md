@@ -1,5 +1,7 @@
 # updates 11-29-2023
 
+# sonoma will not install from BaseSystem.dmg it requires the full 15gb iso
+
 # iso to install Sonoma
 
 ```https://www.mediafire.com/file/vku90kjifs1fmu0/macOS+Sonoma+ISO+by+techrechard.com.iso/file```
