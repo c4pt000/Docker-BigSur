@@ -1,3 +1,11 @@
+* update to fix networking inside of SSH KVM once you login to ssh root@172.17.0.2 using fedora-mac password use this script in fedora-mac to fix iptables
+* https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
+  ```wget https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh```
+  ```chmod +x patch-libvirt-IPTABLES-NFTABLES-UFW.sh```
+  ```./patch-libvirt-IPTABLES-NFTABLES-UFW.sh```
+  ```close virt-manager and then reopen virtual manager from virt-manager```
+  ```networking should work for install```
+
 for docker inside of a virtual machine running KVM natively notice the kvm=on,vmx extension for the processor
 requires kvm_intel nested=1 in /etc/kvm.conf
 and or
