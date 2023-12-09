@@ -1,4 +1,4 @@
-# updates 11-29-2023
+# updates 12-09-2023 Sonoma will not install see ventura install here
 
 ```
 docker run -it \
