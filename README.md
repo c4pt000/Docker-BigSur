@@ -1,6 +1,33 @@
 # updates 11-29-2023
 
-# sonoma will not install from BaseSystem.dmg it requires the full 15gb iso
+# sonoma will not install from APFS requires JHFS+
+```
+Here is how I solved the issue:
+
+    The issue came from the inability for the installer to unmount the Fusion drive before rebooting. I figured this out in Disk Utility as it could not unmount the drive to "repair" it.
+    So I used the instructions in the second part of this Apple documentation: APFS Fusion
+        Open a Terminal window (in the Installer launch screen, it is under the "Utilities" menu item. 
+        Look for the Unix names of your drives:
+            #> diskutil list internal
+            take note of which drive is the SSD, which is the HDD. In my case, it was as in the example from Apple: SSD was disk0, HDD was disk1.
+        Force-unmount your target logical volume:
+
+        #> diskutil unmount force disk2s1
+        Separately re-format each Drive of the previously-unmounted Fusion volume:
+            #> diskutil eraseDisk JHFS+ SSD disk0
+            #> diskutil eraseDisk JHFS+ HDD disk1
+        Recreate a Fusion Drive:
+
+        #> diskutil cs create "Macintosh HD" disk0 disk1
+        Recreate a logical volume on it:
+
+        diskutil cs createVolume "Macintosh HD" JHFS+ "Macintosh HD" 100%
+        Quit the Terminal application. You'll be taken back to the installer.
+    Retry to install High Sierra. In my case the issue was completely solved.
+
+
+Hope this helps, good luck!
+```
 
 # iso to install Sonoma
 
