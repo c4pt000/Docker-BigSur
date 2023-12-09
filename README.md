@@ -1,34 +1,17 @@
 # updates 11-29-2023
 
-# sonoma will not install from APFS requires JHFS+
 ```
-Here is how I solved the issue:
+docker run -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -e GENERATE_UNIQUE=true \
+    -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom.plist' \
+    sickcodes/docker-osx:ventura
 
-    The issue came from the inability for the installer to unmount the Fusion drive before rebooting. I figured this out in Disk Utility as it could not unmount the drive to "repair" it.
-    So I used the instructions in the second part of this Apple documentation: APFS Fusion
-        Open a Terminal window (in the Installer launch screen, it is under the "Utilities" menu item. 
-        Look for the Unix names of your drives:
-            #> diskutil list internal
-            take note of which drive is the SSD, which is the HDD. In my case, it was as in the example from Apple: SSD was disk0, HDD was disk1.
-        Force-unmount your target logical volume:
-
-        #> diskutil unmount force disk2s1
-        Separately re-format each Drive of the previously-unmounted Fusion volume:
-            #> diskutil eraseDisk JHFS+ SSD disk0
-            #> diskutil eraseDisk JHFS+ HDD disk1
-        Recreate a Fusion Drive:
-
-        #> diskutil cs create "Macintosh HD" disk0 disk1
-        Recreate a logical volume on it:
-
-        diskutil cs createVolume "Macintosh HD" JHFS+ "Macintosh HD" 100%
-        Quit the Terminal application. You'll be taken back to the installer.
-    Retry to install High Sierra. In my case the issue was completely solved.
-
-
-Hope this helps, good luck!
+# docker build -t docker-osx --build-arg SHORTNAME=ventura .
 ```
-
 # iso to install Sonoma
 
 ```https://www.mediafire.com/file/vku90kjifs1fmu0/macOS+Sonoma+ISO+by+techrechard.com.iso/file```
