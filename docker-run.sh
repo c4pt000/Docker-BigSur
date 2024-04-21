@@ -1,6 +1,6 @@
 
 
-docker run -it --privileged -d \
+docker run -it --privileged --net host -d \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     -v "${PWD}/OSX-KVM:/opt/OSX" \
    -u root \
@@ -28,4 +28,4 @@ docker run -it --privileged -d \
     echo ""
     echo ""
     sleep 5s
-    ssh -X -p 2022 -Y 172.17.0.1
+    ssh -X -p 2022 -Y -X 172.17.0.1
