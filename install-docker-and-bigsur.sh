@@ -8,7 +8,7 @@ sudo dnf -y install dnf-plugins-core
     https://download.docker.com/linux/fedora/docker-ce.repo
 
 
- sudo dnf install docker-ce docker-ce-cli containerd.io -y
+ sudo dnf install docker-ce docker-ce-cli containerd.io dmg2img -y
 
 systemctl start docker
 
@@ -35,7 +35,8 @@ wget https://github.com/c4pt000/Docker-monterey/releases/download/osx-kvm/OSX-KV
 tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
 ./fetch-macOS-v2.py -s big-sur
-qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
+#qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
+dmg2img -i BaseSystem.dmg BaseSystem.img
 
 
 rm -rf Latest.*
