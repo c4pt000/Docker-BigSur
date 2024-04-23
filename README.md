@@ -1,9 +1,9 @@
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
 
-# iso to install Sonoma
+* requires dmg2img
+  ```yum install dmg2img -y```
 
-```https://www.mediafire.com/file/vku90kjifs1fmu0/macOS+Sonoma+ISO+by+techrechard.com.iso/file```
 
 * update to fix networking inside of SSH KVM once you login to ssh root@172.17.0.2 using fedora-mac password use this script in fedora-mac to fix iptables
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
@@ -21,6 +21,7 @@
   sudo pmset -a disablesleep 1
 
   ```
+
 
 
 # adjust Network interface card to 'virtio' to install Sonoma
