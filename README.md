@@ -1,3 +1,6 @@
+# 04-23-2024 Monterey is working use "vmxnet3" with KVM for networking adapter type
+
+
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
 
@@ -11,6 +14,9 @@
   ```
   wget https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
   chmod +x patch-libvirt-IPTABLES-NFTABLES-UFW.sh
+
+
+  
   ./patch-libvirt-IPTABLES-NFTABLES-UFW.sh
   close virt-manager and then reopen virtual manager from virt-manager
   change NIC to virtio see picture below
