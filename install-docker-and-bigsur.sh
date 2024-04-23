@@ -34,7 +34,7 @@ sleep 5s
 wget https://github.com/c4pt000/Docker-monterey/releases/download/osx-kvm/OSX-KVM.tar.gz
 tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
-./fetch-macOS-v2.py -s big-sur
+./fetch-macOS-v2.py -s monterey
 #qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
 dmg2img -i BaseSystem.dmg BaseSystem.img
 
