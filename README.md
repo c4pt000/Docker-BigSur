@@ -1,5 +1,7 @@
 # 04-23-2024 Monterey is working use "vmxnet3" with KVM for networking adapter type
 
+https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
+https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
