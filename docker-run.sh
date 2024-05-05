@@ -27,5 +27,5 @@ docker run -it --privileged --net host -d \
     echo ""
     echo ""
     echo ""
-    sleep 5s
+    sleep 10s
     ssh -X -p 2022 -Y -X 172.17.0.1
