@@ -30,8 +30,7 @@
 
 
 
-# adjust Network interface card to 'virtio' to install Sonoma
-![s1](https://raw.githubusercontent.com/c4pt000/Docker-Sonoma/master/virtio.png)
+# adjust Network interface card to 'vmxnet3' to install Sonoma
 
 
 
