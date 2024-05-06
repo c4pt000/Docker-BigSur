@@ -18,6 +18,40 @@ lscpu | grep avx
 
 ![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/macos-hack.png)
 
+# disable root_hash_validation once HFS+ in config.plist of /EFI/OC
+```
+<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_authenticate_root_hash</string>
+				<key>Comment</key>
+				<string>Disable Root Hash validation</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data></data>
+				<key>Identifier</key>
+				<string>com.apple.filesystems.apfs</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string>22.0.0</string>
+				<key>Replace</key>
+				<data>uAAAAADD</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+```
+
 # 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type
 
 
