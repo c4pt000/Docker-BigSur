@@ -1,7 +1,11 @@
-# 04-23-2024 Monterey is working use "vmxnet3" with KVM for networking adapter type
+# 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type
 
 https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
 https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
+
+# has to be HFS+ instead of APFS or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
+# https://github.com/acidanthera/CryptexFixup
+![s1](https://github.com/c4pt000/Docker-Sonoma-testing-qemu/releases/download/osx-kvm/hfs+-mac-hack.png)
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
