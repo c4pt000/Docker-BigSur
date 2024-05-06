@@ -20,7 +20,17 @@ lscpu | grep avx
 
 # disable root_hash_validation once HFS+ in config.plist of /EFI/OC
 ```
-<dict>
+				<key>Patch</key>
+			        <array>
+
+				<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string>_isSingleUse
+				-------------this goes into bottom of Patch key----.......................................
+
+				<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
 				<key>Base</key>
