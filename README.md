@@ -13,7 +13,7 @@ lscpu | grep avx
 # https://github.com/acidanthera/CryptexFixup
 ![s1](https://github.com/c4pt000/Docker-Sonoma-testing-qemu/releases/download/osx-kvm/hfs+-mac-hack.png)
 
-# or it leads to failures with libSystem.B.dylib
+# or it leads to failures with libSystem.B.dylib with post installation right before the new user wizard startup screen to make a new user account on a fresh install
 ![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/macos-hack.png)
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
