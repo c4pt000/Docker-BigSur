@@ -3,7 +3,7 @@
 https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
 https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
 
-# about Sonoma ..... has to be HFS+ instead of APFS when installing using disk utility or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
+# about Sonoma ..... has to be Mac OS Extended Journaled (HFS+) instead of APFS when installing using disk utility or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
 # https://github.com/acidanthera/CryptexFixup
 ![s1](https://github.com/c4pt000/Docker-Sonoma-testing-qemu/releases/download/osx-kvm/hfs+-mac-hack.png)
 
