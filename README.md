@@ -8,7 +8,7 @@ https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
 ![s1](https://github.com/c4pt000/Docker-Sonoma-testing-qemu/releases/download/osx-kvm/hfs+-mac-hack.png)
 
 # or it leads to failures with libSystem.B.dylib
-
+![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/macos-hack.png)
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
