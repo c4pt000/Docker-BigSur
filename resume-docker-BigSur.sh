@@ -16,5 +16,5 @@ the docker guest IP might not be 172.17.0.2 (sometimes it changes if other docke
 password to login with fedora-mac as root
 '
 echo 'ssh -p 2022 -Y -X root@172.17.0.1'
-sleep 10s
+sleep 30s
 ssh -p 2022 -Y -X root@172.17.0.1
