@@ -14,6 +14,8 @@ lscpu | grep avx
 ![s1](https://github.com/c4pt000/Docker-Sonoma-testing-qemu/releases/download/osx-kvm/hfs+-mac-hack.png)
 
 # or it leads to failures with libSystem.B.dylib with post installation right before the new user wizard startup screen to make a new user account on a fresh install
+# on a reboot loop
+
 ![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/macos-hack.png)
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
