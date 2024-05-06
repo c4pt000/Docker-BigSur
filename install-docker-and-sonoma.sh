@@ -34,7 +34,7 @@ sleep 5s
 wget https://github.com/c4pt000/Docker-monterey/releases/download/osx-kvm/OSX-KVM.tar.gz
 tar -xvf OSX-KVM.tar.gz
 chmod +x fetch-macOS-v2.py
-./fetch-macOS-v2.py -s monterey
+./fetch-macOS-v2.py -s sonoma
 #qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
 dmg2img -i BaseSystem.dmg BaseSystem.img
 
@@ -56,5 +56,5 @@ the docker guest IP might not be 172.17.0.1 (sometimes it changes if other docke
 password to login with fedora-mac as root
 '
 echo 'ssh -X -p 2022 -Y root@172.17.0.1'
-sleep 20s
+sleep 30s
 ssh -X -p 2022 -Y root@172.17.0.1
