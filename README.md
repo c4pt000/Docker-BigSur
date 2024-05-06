@@ -1,4 +1,4 @@
-# 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type
+# 05-05-2024
 
 https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
 https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
@@ -17,6 +17,9 @@ lscpu | grep avx
 # on a reboot loop
 
 ![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/macos-hack.png)
+
+# 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type
+
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
