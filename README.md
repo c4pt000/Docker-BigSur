@@ -1,6 +1,6 @@
 # 05-05-2024
 
-https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
+* iso from -> https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
 
 # FULL Sonoma ISO download (recovery dmg from fetch-macos.py doesnt seem to load)
 # https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso
