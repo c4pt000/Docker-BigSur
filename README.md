@@ -5,6 +5,19 @@ to update to current c4pt/fedora-mac KVM loader with Sonoma changes
 docker pull c4pt/fedora-mac
 ```
 
+
+# to install Sonoma
+```
+sh install-docker-and-sonoma.sh
+ssh -X -p 2022 -Y -X 172.17.0.1
+```
+# to resume Sonoma after shutdown or reboot or exiting the docker image
+
+```
+sh docker-run.sh
+ssh -X -p 2022 -Y -X 172.17.0.1
+```
+
 # 05-05-2024
 
 * iso from -> https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
