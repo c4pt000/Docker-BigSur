@@ -1,7 +1,9 @@
 # 05-05-2024
 
 https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
-https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
+
+FULL Sonoma ISO download (recovery dmg from fetch-macos.py doesnt seem to load)
+# https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
 
 # about Sonoma / Ventura ..... has to be Haswell-noTSX instead Penryn of APFS when installing using disk utility or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
 ```
