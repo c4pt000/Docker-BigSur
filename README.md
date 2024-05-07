@@ -1,4 +1,4 @@
-# 05-07-2024
+# 05-07-2024 final working with macOS-Sonoma
 ```
 to update to current c4pt/fedora-mac KVM loader with Sonoma changes
 
