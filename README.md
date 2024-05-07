@@ -10,12 +10,15 @@ docker pull c4pt/fedora-mac
 ```
 sh install-docker-and-sonoma.sh
 ssh -X -p 2022 -Y -X 172.17.0.1
+password is "fedora-mac"
 ```
 # to resume Sonoma after shutdown or reboot or exiting the docker image
 
 ```
 sh docker-run.sh
 ssh -X -p 2022 -Y -X 172.17.0.1
+password is "fedora-mac"
+
 ```
 
 # 05-05-2024
