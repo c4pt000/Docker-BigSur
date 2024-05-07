@@ -78,6 +78,7 @@ lscpu | grep avx
 
 # 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type graphics should be vmware-svga or vmware
 
+![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/big-wave-sonoma.png)
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
