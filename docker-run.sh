@@ -1,3 +1,4 @@
+docker pull c4pt/fedora-mac
 docker run -it --net host --privileged -d \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     -v "${PWD}/macOS-Sonoma-14.1.1.iso:/Bimage" \
