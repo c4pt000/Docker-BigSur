@@ -16,6 +16,9 @@ https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
 
 
 # about Sonoma / Ventura ..... has to be Haswell-noTSX instead Penryn of APFS when installing using disk utility or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
+
+# USE APFS as a filesystem it works in KVM-docker Sonoma when using HFS+ the system seems to revert it back into APFS
+
 ```
 <domain type='kvm' xmlns:qemu='http://libvirt.org/schemas/domain/qemu/1.0'>
 
@@ -37,7 +40,6 @@ lscpu | grep avx
 ```
 # https://github.com/acidanthera/CryptexFixup
 
-# USE APFS works in KVM-docker 
 
 # or it leads to failures with libSystem.B.dylib with post installation right before the new user wizard startup screen to make a new user account on a fresh install
 # on a reboot loop
