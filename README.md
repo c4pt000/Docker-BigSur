@@ -1,3 +1,10 @@
+# 05-07-2024
+```
+to update to current c4pt/fedora-mac KVM loader with Sonoma changes
+
+docker pull c4pt/fedora-mac
+```
+
 # 05-05-2024
 
 * iso from -> https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
