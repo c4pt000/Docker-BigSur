@@ -1,7 +1,7 @@
 docker run -it --net host --privileged -d \
     -v "${PWD}/mac_hdd_ng.img:/image" \
     -v "${PWD}/macOS-Sonoma-14.1.1.iso:/Bimage" \
-    -v "${PWD}/:/opt/OSX-current" \
+    -v "${PWD}/OSX-KVM:/opt/OSX" \
    -u root \
     --device /dev/kvm \
     --device /dev/snd \
