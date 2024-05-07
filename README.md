@@ -3,15 +3,26 @@
 https://klabsdev.com/definitive-guide-to-running-macos-in-proxmox/
 https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
 
-# about Sonoma / Ventura ..... has to be Mac OS Extended Journaled (HFS+) instead of APFS when installing using disk utility or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
+# about Sonoma / Ventura ..... has to be Haswell-noTSX instead Penryn of APFS when installing using disk utility or cryptex apfs hashing functions will fail even on avx2.0 processors even with CryptexFixup.kext
 ```
-<qemu:arg value="Penryn,kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on,+avx,+aes,+xsave,+xsaveopt,+avx2,enforce"/>
+
+
+<qemu:commandline>
+    <qemu:arg value="-device"/>
+    <qemu:arg value="isa-applesmc,osk=ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"/>
+    <qemu:arg value="-smbios"/>
+    <qemu:arg value="type=2"/>
+    <qemu:arg value="-cpu"/>
+    <qemu:arg value="Haswell-noTSX,vendor=GenuineIntel,kvm=on,+sse3,+sse4.2,+aes,+xsave,+avx,+xsaveopt,+avx2,+bmi2,+smep,+bmi1,+fma,+movbe,+invtsc,+vmx,enforce"/>
+  </qemu:commandline>
+
 
 in terminal to check your cpu flags and functions
 lscpu | grep avx
 ```
 # https://github.com/acidanthera/CryptexFixup
-![s1](https://github.com/c4pt000/Docker-Sonoma-testing-qemu/releases/download/osx-kvm/hfs+-mac-hack.png)
+
+# USE APFS works in KVM-docker 
 
 # or it leads to failures with libSystem.B.dylib with post installation right before the new user wizard startup screen to make a new user account on a fresh install
 # on a reboot loop
