@@ -105,7 +105,7 @@ lscpu | grep avx
   ```yum install dmg2img -y```
 
 
-* update to fix networking inside of SSH KVM once you login to ssh root@172.17.0.2 using fedora-mac password use this script in fedora-mac to fix iptables
+* update to fix networking inside of SSH KVM once you login to ssh root@172.17.0.1 using fedora-mac password use this script in fedora-mac to fix iptables
 * https://raw.githubusercontent.com/c4pt000/kernel-5.11.6-expSEHDsec-HAXM-cgroup-virtio-nvidia-amd-kaliwifi/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 
   ```
@@ -263,10 +263,10 @@ SI:localuser:c4pt
 
 port 2022 has to be enabled as allow out in firewalld or ufw
 
-the docker guest IP might not be 172.17.0.2 (sometimes it changes if other docker guests are using a virtual docker0 ip
+the docker guest IP might not be 172.17.0.1 (sometimes it changes if other docker guests are using a virtual docker0 ip
 password to login with fedora-mac as root
 ```
-ssh -p 2022 -Y root@172.17.0.2
+ssh -p 2022 -Y root@172.17.0.1
 ```
 
 <br>
@@ -358,8 +358,8 @@ docker-install-run.sh
 
 echo "password:   fedora-mac"
 
-"where 172.17.0.2 is the ip of this docker image if different connect to that ip"
-"ssh -p 2022 -Y root@172.17.0.2"
+"where 172.17.0.1 is the ip of this docker image if different connect to that ip"
+"ssh -p 2022 -Y root@172.17.0.1"
 "fedora-mac -> password for root"
 "/usr/bin/mac-install"
 
@@ -375,13 +375,13 @@ docker-run.sh
 
 echo "password:   fedora-mac"
 
-"where 172.17.0.2 is the ip of this docker image if different connect to that ip"
-"ssh -p 2022 -Y root@172.17.0.2"
+"where 172.17.0.1 is the ip of this docker image if different connect to that ip"
+"ssh -p 2022 -Y root@172.17.0.1"
 "fedora-mac -> password for root"
 "/usr/bin/macos"
 or 
 "/usr/bin/macos-snd"
-ssh -p 2022 -Y 172.17.0.2
+ssh -p 2022 -Y 172.17.0.1
 
 macos                 might take running the command two or three times to kick over
 
