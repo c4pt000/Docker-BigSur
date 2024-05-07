@@ -13,8 +13,10 @@ https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
     <qemu:arg value="isa-applesmc,osk=ourhardworkbythesewordsguardedpleasedontsteal(c)AppleComputerInc"/>
     <qemu:arg value="-smbios"/>
     <qemu:arg value="type=2"/>
+    <qemu:arg value="-global"/>
+    <qemu:arg value="ICH9-LPC.acpi-pci-hotplug-with-bridge-support=off"/>
     <qemu:arg value="-cpu"/>
-    <qemu:arg value="Haswell-noTSX,vendor=GenuineIntel,kvm=on,+sse3,+sse4.2,+aes,+xsave,+avx,+xsaveopt,+avx2,+bmi2,+smep,+bmi1,+fma,+movbe,+invtsc,+vmx,enforce"/>
+    <qemu:arg value="Haswell-noTSX,vendor=GenuineIntel,kvm=on,+sse3,+sse4.2,+aes,+xsave,+avx,+xsaveopt,+avx2,+bmi2,+smep,+bmi1,+fma,+movbe,+invtsc,+vmx,enforce,vmware-cpuid-freq=on"/>
   </qemu:commandline>
 
 
