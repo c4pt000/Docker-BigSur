@@ -98,6 +98,9 @@ lscpu | grep avx
 
 ![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/big-wave-sonoma.png)
 
+# 05-07-2024 fixing KVM network
+![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/fix-networking-kvm.gif)
+
 # updates 12-09-2023 Sonoma will not install see ventura install here
 
 
