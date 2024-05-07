@@ -73,7 +73,7 @@ lscpu | grep avx
 			</dict>
 ```
 
-# 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type
+# 04-23-2024 Monterey,Ventura,Sonoma is working use "vmxnet3" with KVM for networking adapter type graphics should be vmware-svga or vmware
 
 
 # updates 12-09-2023 Sonoma will not install see ventura install here
