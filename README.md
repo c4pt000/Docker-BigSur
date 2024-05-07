@@ -46,7 +46,7 @@ lscpu | grep avx
 
 ![s1](https://github.com/c4pt000/Docker-Sonoma-qemu/releases/download/osx-kvm/macos-hack.png)
 
-# disable root_hash_validation once HFS+ in config.plist of /EFI/OC
+# disable root_hash_validation once the system is APFS in config.plist of /EFI/OC
 ```
 				<key>Patch</key>
 			        <array>
