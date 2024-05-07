@@ -40,7 +40,7 @@ tar -xvf OSX-KVM.tar.gz
 #./fetch-macOS-v2.py -s sonoma
 #qemu-img convert BaseSystem.dmg -O raw BaseSystem.img
 echo "downloading sonoma this will take 20-30 minutes on a 10MB connection 15.6gb iso"
-wget https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso?ref=klabsdev.com
+wget https://cdn.klabsdev.com/MacImages/macOS-Sonoma-14.1.1.iso
 
 #echo "converting sonoma iso to flat .img file this will take 5 or 10 minutes"
 #qemu-img convert macOS-Sonoma-14.1.1.iso -O raw macOS-Sonoma-14.1.1.img
