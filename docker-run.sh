@@ -1,8 +1,7 @@
-
-
-docker run -it --privileged --net host -d \
+docker run -it --net host --privileged -d \
     -v "${PWD}/mac_hdd_ng.img:/image" \
-    -v "${PWD}/OSX-KVM:/opt/OSX" \
+    -v "${PWD}/macOS-Sonoma-14.1.1.iso:/Bimage" \
+    -v "${PWD}/:/opt/OSX-current" \
    -u root \
     --device /dev/kvm \
     --device /dev/snd \
@@ -12,11 +11,10 @@ docker run -it --privileged --net host -d \
     -p 2022:2022 \
     -p 6900:6900 \
     -e NOPICKER=true \
-    -e GENERATE_SPECIFIC=true \
-    -e DEVICE_MODEL="iMacPro1,1" \
-    -e SERIAL="C02TW0WAHX87" \
-    -e BOARD_SERIAL="C027251024NJG36UE" \
-    -e UUID="5CCB366D-9118-4C61-A00A-E5BAF3BED451" \
+    -e GENERATE_UNIQUE=true \
+    -e CPU='Haswell-noTSX' \
+    -e CPUID_FLAGS='kvm=on,vendor=GenuineIntel,+invtsc,vmware-cpuid-freq=on' \
+    -e MASTER_PLIST_URL='https://raw.githubusercontent.com/sickcodes/osx-serial-generator/master/config-custom-sonoma.plist' \
     -e MAC_ADDRESS="A8:5C:2C:9A:46:2F" \
     -e WIDTH=1000 \
     -e HEIGHT=1000 \
@@ -27,5 +25,6 @@ docker run -it --privileged --net host -d \
     echo ""
     echo ""
     echo ""
+    echo "pausing for 30 seconds to establish ssh connection"
     sleep 30s
     ssh -X -p 2022 -Y -X 172.17.0.1
